@@ -16,7 +16,7 @@ namespace Digitalroot.Valheim.BoneArrowsJVL
   [BepInPlugin(Guid, Name, Version)]
   [NetworkCompatibility(CompatibilityLevel.ClientMustHaveMod, VersionStrictness.Minor)]
   [BepInIncompatibility("com.bepinex.plugins.bonearrows")]
-  [BepInDependency(Jotunn.Main.ModGuid, "2.10.0")]
+  [BepInDependency(Jotunn.Main.ModGuid)]
   [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
   public partial class Main : BaseUnityPlugin, ITraceableLogging
   {
